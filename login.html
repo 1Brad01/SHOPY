@@ -1,0 +1,169 @@
+<!-- Login page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1988864390.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+<style>
+
+    #td4{
+        text-align: right ;
+        align-items: center;
+        padding: 5px;
+        width: 30px;
+        font-size: 40px;
+        outline: none;
+        background-image: linear-gradient(to top, #ff0844 0%,#ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color-: transparent;
+
+
+    }
+
+</style>
+
+
+</head>
+
+
+<body>
+    
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fa-solid fa-cart-shopping"></i>  SHOPY</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                  <a href="/" class="navbar__links">Home</a>  
+                </li>
+                <li class="navbar__item">
+                    <a href="http://127.0.0.1:5500/about.html" class="navbar__links">About</a>  
+                  </li>
+                  <li class="navbar__item">
+                    <a href="http://127.0.0.1:5500/prod_2.html" class="navbar__links">Products</a>  
+                  </li>
+
+                  <li class="navbar__item">
+                    <a href="http://127.0.0.1:5500/chkout2.html" class="navbar__links">Checkout</a>  
+                  </li>
+                  <li class="navbar__btn">
+                    <a href="http://127.0.0.1:5500/signup.html" class="button">Sign Up</a>  
+                  </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br> <br>
+    <h1 id="heading1"> Login to SHOPY</h1>
+	<br/> <br/>
+
+    <form action="/" method="post" onsubmit="return validateData()">
+    
+        <table class="center">
+            
+                
+            
+                <tr>			
+                    <td id="td1"> Email: </td>
+                    <td id="td2"> <input type="email" name="em1"  size="20" id="userEmail1"/> </td>			
+                </tr>
+ 
+                <tr>			
+                    <td id="td1"> Password: </td>
+                    <td id="td2"> <input type="password" name="pw1"  size="20" id="userPassword1" placeholder="minumum 5 characters"/> </td>			
+                </tr>
+           
+            
+                <tr>			
+                 
+                    <td id="td4"> 
+                       <input type="submit" value="Login"/>   
+                      
+                       
+                    
+                    </td>	 
+                    		
+                </tr>
+                
+                <tr>
+            </table>
+
+                 <!--Footer Section-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__links--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">How SHOPY Began</a>
+                    <a href="/">Our Management Teams</a>
+                    <a href="/about.html">More About SHOPY</a> <!-- link to detailed about page -->
+                    <a href="/">Terms of Service</a>
+                </div>
+                </div>
+                <div class="footer__links--wrapper">
+                <div class="footer__link--items">
+                    <h2> Contact Us</h2>
+                    <a href="/">Cities we opperate in</a>
+                    <a href="/">Support Us</a>
+                    <a href="/">Sponsorships</a> 
+                </div>
+                </div>
+                <div class="footer__links--wrapper">
+                <div class="footer__link--items">
+                    <h2> Follow Our Socials</h2>
+                    <a href="https://x.com">Twitter(X)</a>
+                    <a href="https://facebook.com">Facebook</a>
+                    <a href="https://instagram.com">Instagram</a>
+                    <a href="https://youtube.com">Youtube</a> 
+             
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fa-solid fa-cart-shopping">SHOPY</i></a>
+                </div>
+                <p class="website__rights">© SHOPY 2025. All rights reserved.</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

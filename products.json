@@ -1,0 +1,126 @@
+
+[
+    {
+        "id": 1,
+        "name": "Fast-charing USB-C Cable",
+        "price": 89.99,
+        "image": "images/USB-C.jpg"
+    },
+    {
+        "id": 2,
+        "name": "25,000 mAH Power Bank",
+        "price": 109.99,
+        "image": "images/PowerBank.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Painting kit",
+        "price": 50.49,
+        "image": "images/Paintkit.jpg"
+    },
+    {
+        "id": 4,
+        "name": " Crayola Crayon Set, 24 Colors",
+        "price": 8.99,
+        "image":"images/CaryonSet.webp"
+    },
+    {
+        "id": 5,
+        "name": " NordStrom Summer Shirt",
+        "price": 85.99,
+        "image":"images/Nordshirt.jpeg"
+    },
+    {
+        "id": 6,
+        "name": " GAP Men's Pants",
+        "price": 120.99,
+        "image":"images/Gappants.jpeg"
+    },
+    {
+        "id": 7,
+        "name": " Women's Summer Shirt",
+        "price": 60.99,
+        "image":"images/Womenshirt.jpeg"
+    },
+    {
+        "id": 8,
+        "name": " Women's Summer Shorts",
+        "price": 49.99,
+        "image":"images/Womenshort.webp"
+    },
+    {
+        "id": 9,
+        "name": "Clorox Cleaning Spray",
+        "price": 24.99,
+        "image": "images/Clorox.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "All-in-One Cleaning kit",
+        "price": 49.99,
+        "image": "images/Cleaningkit.avif"
+    },
+    {
+        "id": 11,
+        "name": "4-Piece Kitchen Cooking Utensil set",
+        "price": 29.99,
+        "image": "images/Kitchenset.avif"
+    },
+    {
+        "id": 12,
+        "name": "Philips AirFryer, All Black",
+        "price": 299.99,
+        "image": "images/airfryer.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Carbon-Steel Wok",
+        "price": 89.99,
+        "image": "images/wok.jpg"
+    },
+    {
+        "id": 14,
+        "name": "ASUS Zenbook 14' Laptop",
+        "price": 889.99,
+        "image": "images/laptopp.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Uni-Sex Black Frame Glasses",
+        "price": 69.99,
+        "image": "images/glass.jpg"
+    },
+    {
+        "id": 16,
+        "name": "ONE DEGREE Sport Runners",
+        "price": 99.99,
+        "image": "images/shoes.webp"
+    },
+    {
+        "id": 17,
+        "name": "Striped Crew Socks",
+        "price": 19.99,
+        "image": "images/socks.webp"
+    },
+    {
+        "id": 18,
+        "name": "Men's Dress Watch",
+        "price": 109.99,
+        "image": "images/watch.webp"
+    },
+    {
+        "id": 19,
+        "name": "3-Pack Tank Tops",
+        "price": 24.99,
+        "image": "images/tanktop.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Women's B3 Bomber Jacket",
+        "price": 119.99,
+        "image": "images/bomberj.webp"
+    }
+
+]
+
